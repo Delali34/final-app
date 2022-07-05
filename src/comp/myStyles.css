@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 300px 100px 50px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 137, 179, 0.5),
+    -6px -6px 10px -1px rgba(0, 150, 180, 0.847);
+}
+
+h1{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+
+.info{
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.image{
+    height: 200vh;
+    width: 30%;
+    
+}
+
+p,h1 {
+    text-align: center;
+}
