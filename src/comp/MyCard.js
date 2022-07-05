@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import { Home } from "./Home";
-import { WelcomeComponents } from './WelcomeComponent';
+import { FirstThings } from './FirstThings';
 import { Image } from "./Image";
 import './myStyles.css';
 
-export class SimpleCard extends Component {
+export class MyCard extends Component {
     render() { 
       return (
         <div className='container'>
           {/* <div className='img'> */}
-            <Image src={require("./picture.jpg")} alt="a flower" className="image"/>
+            <Image src={require("./picture.jpg")} alt="a picture" className="image"/>
             {/* </div> */}
             
           
         <div className='info'>
         <Home text=""/>
-         <WelcomeComponents place="" website="www.myleadershipfarm.org"/>
+         <FirstThings place="" website="www.myleadershipfarm.org"/>
         </div>
 
             

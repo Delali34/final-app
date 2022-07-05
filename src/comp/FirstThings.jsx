@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './myStyles.css';
 
-export class WelcomeComponents extends Component {
+export class FirstThings extends Component {
     render() { 
       return (
         <div>
